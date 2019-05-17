@@ -4,9 +4,12 @@ public class LongerLine {
         if(line1.Lenght()>line2.Lenght()){
             return line1;
 
-        }else {
+        }else if(line1.Lenght()>line2.Lenght()){
             return  line2;
 
+        }
+        else{
+            return line1; //assumption to return line1 when length is equal.
         }
     }
 }
