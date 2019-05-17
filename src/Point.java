@@ -1,18 +1,30 @@
 public class Point {
-   private double startPoint;
-   private double endPoint;
+    private double coordinateAx;
+    private double coordinateAy;
+    private double coordinateBx;
+    private double coordinateBy;
 
-    public Point(double startPoint, double endPoint) {
-        this.startPoint = startPoint;
-        this.endPoint = endPoint;
+    public Point(double coordinateAx, double coordinateAy, double coordinateBx, double coordinateBy) {
+        this.coordinateAx = coordinateAx;
+        this.coordinateAy = coordinateAy;
+        this.coordinateBx = coordinateBx;
+        this.coordinateBy = coordinateBy;
     }
 
-    public double getStartPoint() {
-        return startPoint;
+    public double getCoordinateAx() {
+        return coordinateAx;
     }
 
-    public double getEndPoint() {
-        return endPoint;
+    public double getCoordinateAy() {
+        return coordinateAy;
+    }
+
+    public double getCoordinateBx() {
+        return coordinateBx;
+    }
+
+    public double getCoordinateBy() {
+        return coordinateBy;
     }
 
 }
