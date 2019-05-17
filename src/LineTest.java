@@ -7,8 +7,8 @@ public class LineTest {
         line2.point = new Point(1,5,-3,-2);
 
         LongerLine longerLine = new LongerLine();
-        System.out.println("Longer line coordinates: ("+longerLine.LongerLine(line1,line2).point.getCoordinateAx()+ "."+
-                longerLine.LongerLine(line1,line2).point.getCoordinateAy() + ";"+longerLine.LongerLine(line1,line2).point.getCoordinateBx()+ "."+
+        System.out.println("Longer line coordinates: ("+longerLine.LongerLine(line1,line2).point.getCoordinateAx()+ ","+
+                longerLine.LongerLine(line1,line2).point.getCoordinateAy() + " ; "+longerLine.LongerLine(line1,line2).point.getCoordinateBx()+ ","+
                 longerLine.LongerLine(line1,line2).point.getCoordinateBy() +") Lenght:"+ longerLine.LongerLine(line1,line2).Lenght());
     }
 }
