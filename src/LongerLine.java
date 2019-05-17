@@ -4,7 +4,7 @@ public class LongerLine {
         if(line1.Lenght()>line2.Lenght()){
             return line1;
 
-        }else if(line1.Lenght()>line2.Lenght()){
+        }else if(line1.Lenght()<line2.Lenght()){
             return  line2;
 
         }
